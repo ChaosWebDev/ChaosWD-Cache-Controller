@@ -4,7 +4,8 @@ namespace Order\Controller;
 
 class CacheController
 {
-    public $dir, $file;
+    public $dir = __DIR__ . "/../cache";
+    public $file;
 
     public function __construct(string $dir)
     {
