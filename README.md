@@ -19,7 +19,7 @@ $loadedCache = $cache->load("index");
 In this case "index" is the key the data was saved under.<br>
 <br>
 If the cache is found, and not expired, $loadedCache will return as:<br>
-[0] = (string) true;
+[0] = (string) true;<br>
 [1] = (string) content
 <br><br>
 If the cache is not found, or the cache is stale, $loadedCache will return as:<br>
