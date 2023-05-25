@@ -3,11 +3,6 @@
     "description": "Cache controller for simple cache storage, and retrieval.",
     "type": "library",
     "license": "BSD-3-Clause",
-    "autoload": {
-        "psr-4": {
-            "Chaoswd\\CacheController\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Jordan Gerber",
@@ -15,5 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Order\\": "src/",
+            "Order\\Controller\\": "src/"
+        }
+    }
 }
